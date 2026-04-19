@@ -10,7 +10,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/FS-Exp-4/">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
